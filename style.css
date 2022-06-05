@@ -1,0 +1,86 @@
+
+  .inStock {
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Helvetica;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 150px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    
+    box-shadow: 2px 2px rgb(170, 170, 170);
+  }
+ .first {
+  justify-content:space-between;
+  display: flex;
+  width: 50%;
+    
+  }
+
+ .second {
+  justify-content:space-between;
+  display: flex;
+  width: 50%;
+  
+  }
+
+ .third {
+  justify-content:space-between;
+  display: flex;
+  width: 25%;
+   
+  }
+
+
+  .top {
+    height: 60px;
+    font-size: 40px;
+    margin-left: 150px;
+  }
+
+
+
+  .dumbButton {
+    background-color: rgb(201, 201, 201);
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border: black solid 1px;
+    margin: 20px 150px;
+  }
+  
+  body {
+    background-color: rgb(201, 201, 201);
+  }
+  
+  
+  .darkMode {
+    background-color: rgb(53, 53, 53);
+    color: white;
+  }
+
+
+
+  .darkModeItem {
+    background-color:rgb(70, 70, 70);
+    box-shadow: 2px 2px rgb(92, 92, 92);
+  }
+
+  .toggleDark {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border:rgb(122, 122, 122) solid 1px;
+
+  }
+  
+  .randomLine {
+    width: 60px;
+    height: 2px;
+    margin-left: 150px;
+    border-top: 1px solid black;
+  }
+
+  .randomDark {
+    border-top: 1px solid white;
+  }
